@@ -1,5 +1,6 @@
 
 write_global_file<-function(file_name='global.r'){
+  #write global file
   x<-"library(shiny)
 library(bsplus)
   library(shinydashboard)
