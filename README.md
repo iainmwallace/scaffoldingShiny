@@ -2,14 +2,6 @@
 
 The goal of scaffoldingShiny is to make it *even* faster to build Shiny apps by creating a working shiny app scaffold that you can easily modify.
 
-## Installation
-
-You can install scaffoldingShiny from GitHub with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("iainmwallace/scaffoldingShiny")
-```
 
 ## Example
 
