@@ -27,9 +27,10 @@ library(bsplus)
 write_save_data_info_file<-function(file_name='save_data.md'){
   x<-"# Intro
 
-This is a shiny app scaffolded using (https://github.com/iainmwallace/scaffoldingShiny)[https://github.com/iainmwallace/scaffoldingShiny]
+This is a shiny app scaffolded using [https://github.com/iainmwallace/scaffoldingShiny](https://github.com/iainmwallace/scaffoldingShiny)
 
-It is very easy to customize this app.
+It is a working app but very easy to customize.
+
   "
   writeLines(x,file_name)
 
