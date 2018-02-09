@@ -1,9 +1,9 @@
 Package: scaffoldingShiny
 Version: 0.0.0.9000
-Title: What the Package Does (one line, title case)
-Description: What the package does (one paragraph).
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-License: What license is it under?
+Title: Quickly scaffold a shiny app based on a template
+Description: Functions to help scaffold a shiny app to make shiny development even faster and to reduce copy & pasting
+Authors@R: person("Iain", "Wallace", email = "iain.wallace@merck.com", role = c("aut", "cre"))
+License: MIT
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
@@ -11,6 +11,8 @@ Imports:
     purrr,
     glue,
     checkmate,
-    shiny
+    shiny,
+    styler
 Suggests: 
     testthat
+RoxygenNote: 6.0.1
