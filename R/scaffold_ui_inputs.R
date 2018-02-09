@@ -5,6 +5,11 @@ create_input_box<-function(type,id,label){
   id=paste0("\"",id,"\"")
   if(type=="Text"){
     x<-paste0("textInput(inputId=",id,",label=",label,",placeholder=\"Change placeholder\")")
+  } else if(type=="Select"){
+    x<-paste0("selectInput(inputId=",id,",label=",label,",choices=c(\"change\",\"here\"),selected = \"\",multiple=TRUE)")
+  } else if(type == "Numeric"){
+    x<-paste0("numericInput(inputId=",id,",label=",label,",value=1, min = NA, max = NA, step = NA)
+")
   }
 
   return(x)

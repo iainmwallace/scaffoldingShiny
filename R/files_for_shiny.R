@@ -1,5 +1,5 @@
 
-write_global_file<-function(file_name='global.r'){
+write_global_file<-function(file_name='global.r', datastore_type="sqllite"){
   #write global file
   x<-"library(shiny)
 library(bsplus)
@@ -13,6 +13,14 @@ library(bsplus)
   library(glue)
   library(readr)"
 
+  if(datastore_type=="sqllite"){
+  y<-paste0("\nlibrary(DBI)
+            library(dplyr)
+            library(RSQLite)
+            conn <- dbConnect(RSQLite::SQLite(),", "\"my-db.sqlite\"",")
+            datatable=\"my_datatable\"")
+  x<-paste0(x,y)
+  }
   writeLines(x,file_name)
 }
 
