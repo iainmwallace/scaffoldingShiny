@@ -1,8 +1,15 @@
 Package: scaffoldingShiny
+<<<<<<< HEAD
 Version: 0.0.1
 Title: Quickly scaffold a shiny app based on a template
 Description: Functions to help scaffold a shiny app to make shiny development even faster and to reduce copy & pasting
 Authors@R: person("Iain", "Wallace", email = "iain.m.wallace@gmail.com", role = c("aut", "cre"))
+=======
+Version: 0.0.0.9000
+Title: Quickly scaffold a shiny app based on a template
+Description: Functions to help scaffold a shiny app to make shiny development even faster and to reduce copy & pasting
+Authors@R: person("Iain", "Wallace", email = "iain.wallace@merck.com", role = c("aut", "cre"))
+>>>>>>> c5f12b328581ecd1cbfd783047b38f2cabf6d306
 License: MIT
 Encoding: UTF-8
 LazyData: true
