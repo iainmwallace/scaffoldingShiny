@@ -19,7 +19,7 @@ This is a basic example which shows you how to scaffold an app that will display
 input_list<-list(type=c("Text","Select"),id=c("id1","id2"),label=c("name","description"))
 
 # scaffold app
-build_app(input_list,datastore_type="sqllite")
+build_basic_app(input_list,datastore_type="sqllite")
 
 ```
 
