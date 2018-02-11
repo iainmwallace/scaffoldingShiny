@@ -19,9 +19,9 @@ build_basic_app<-function(input_list,datastore_type="file_based"){
   write_browse_data_info_file()
   write_global_file(datastore_type=datastore_type)
 
-  styler::style_file('ui.r')
-  styler::style_file('server.r')
-  styler::style_file('global.r')
+#  styler::style_file('ui.r')
+#  styler::style_file('server.r')
+#  styler::style_file('global.r')
 
 
   shiny::runApp()

@@ -12,7 +12,14 @@ Imports:
     glue,
     checkmate,
     shiny,
-    styler
+    styler,
+    bsplus,
+    shinydashboard,
+    shinycssloaders,
+    shinyjs,
+    dplyr,
+    DT,
+    readr
 Suggests: 
     testthat
 RoxygenNote: 6.0.1
