@@ -1,2 +1,3 @@
 ^scaffoldingShiny\.Rproj$
 ^\.Rproj\.user$
+^codecov\.yml$
