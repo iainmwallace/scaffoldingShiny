@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/iainmwallace/scaffoldingShiny.svg?branch=master)](https://travis-ci.org/iainmwallace/scaffoldingShiny)
+
 # scaffoldingShiny
 
 The goal of scaffoldingShiny is to make it *even* faster to build Shiny apps by creating a working shiny app scaffold that you can easily modify.
