@@ -9,7 +9,7 @@
 #' @examples
 #' input_list<-list(type=c("Text","Text"),id=c("id1","id2"),label=c("new_blah1","blah2"))
 #' build_basic_app(input_list)
-build_basic_app<-function(input_list,datastore_type="file_based"){
+build_basic_app<-function(input_list,datastore_type="file_based",runApp=FALSE){
 
 
 
@@ -23,7 +23,10 @@ build_basic_app<-function(input_list,datastore_type="file_based"){
 #  styler::style_file('server.r')
 #  styler::style_file('global.r')
 
-
+  if(runApp==TRUE){
   shiny::runApp()
+  }else{
+    return(1)
+  }
 
 }
