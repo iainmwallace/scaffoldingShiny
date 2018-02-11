@@ -4,12 +4,14 @@
 \alias{build_basic_app}
 \title{Build basic shiny app}
 \usage{
-build_basic_app(input_list, datastore_type = "file_based")
+build_basic_app(input_list, datastore_type = "file_based", runApp = FALSE)
 }
 \arguments{
 \item{input_list}{list of fields for the Shiny app}
 
 \item{datastore_type}{type of datastore used to save data. Currently must be file_based}
+
+\item{runApp}{launch app immediately}
 }
 \description{
 Build basic shiny CRUD app that stores user input in a csv file

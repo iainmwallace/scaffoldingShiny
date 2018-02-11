@@ -3,6 +3,7 @@
 #' @description Build basic shiny CRUD app that stores user input in a csv file
 #' @param input_list list of fields for the Shiny app
 #' @param datastore_type type of datastore used to save data. Currently must be file_based
+#' @param runApp launch app immediately
 #'
 #' @export build_basic_app
 #'
