@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/iainmwallace/scaffoldingShiny.svg?branch=master)](https://travis-ci.org/iainmwallace/scaffoldingShiny)
+[![Build Status](https://travis-ci.org/iainmwallace/scaffoldingShiny.svg?branch=master)](https://travis-ci.org/iainmwallace/scaffoldingShiny) [![Coverage status](https://codecov.io/gh/iainmwallace/scaffoldingShiny/branch/master/graph/badge.svg)](https://codecov.io/github/iainmwallace/scaffoldingShiny?branch=master)
 
 # scaffoldingShiny
 
