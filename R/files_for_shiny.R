@@ -25,11 +25,15 @@ library(bsplus)
 }
 
 write_save_data_info_file<-function(file_name='save_data.md'){
-  x<-"# Intro
+  x<-"# Conratulations!
 
-This is a shiny app scaffolded using [https://github.com/iainmwallace/scaffoldingShiny](https://github.com/iainmwallace/scaffoldingShiny)
+You have scaffolded a simple shiny app.
+This tab allows a user to save the input you specified.
+The data is stored in the backend that you specified.
+This data is displayed in the next tab.
 
-It is a working app but very easy to customize.
+Feel free to provide feedback by opening an [issue]
+(https://github.com/iainmwallace/scaffoldingShiny)
 
   "
   writeLines(x,file_name)
@@ -38,10 +42,13 @@ It is a working app but very easy to customize.
 
 write_browse_data_info_file<-function(file_name='browse_data.md'){
   x<-"# Browse data form
-This is a shiny app scaffolded using (https://github.com/iainmwallace/scaffoldingShiny)[https://github.com/iainmwallace/scaffoldingShiny]
+You have scaffolded a simple shiny app.
 
-Browse and download data input into the app here.
-It can be customized!
+This tab allows a user to browse the data that has been saved and download it.
+The data is stored in the backend that you specified.
+
+  Feel free to provide feedback by opening an [issue]
+  (https://github.com/iainmwallace/scaffoldingShiny)
   "
   writeLines(x,file_name)
 

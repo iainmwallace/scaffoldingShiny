@@ -28,11 +28,11 @@ input_data_tab<-function(input_boxes){
   \ninput_data_tab<-function(){
   tabItem(tabName = \"input_data_tab\",
   fluidRow(
-  box(width=12,title=\"Details\",
+  box(width=12,title=\"\",
   includeMarkdown(\"save_data.md\"))
   ),
   fluidRow(
-  box(width=12,title=\"Input Data\",\n"
+  box(width=12,title=\"\",\n"
 
   end<-")
   ),fluidRow(
@@ -52,7 +52,7 @@ browse_data_tab<-function(){
   \nbrowse_data_tab<-function(){
   tabItem(tabName = \"browse_data_tab\",
   fluidRow(
-  box(width=12,title=\"Details\",
+  box(width=12,title=\"\",
   includeMarkdown(\"browse_data.md\"))
   ),
   fluidRow(
