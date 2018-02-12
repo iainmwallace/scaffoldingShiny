@@ -19,7 +19,9 @@ Imports:
     shinyjs,
     dplyr,
     DT,
-    readr
+    readr,
+    RSQLite,
+    DBI
 Suggests: 
     testthat,
     covr
