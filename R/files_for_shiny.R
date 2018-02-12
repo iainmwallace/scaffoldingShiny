@@ -16,6 +16,7 @@ library(bsplus)
   if(datastore_type=="sqllite"){
   y<-paste0("\nlibrary(DBI)
             library(dplyr)
+            library(dbplyr)
             library(RSQLite)
             conn <- dbConnect(RSQLite::SQLite(),", "\"my-db.sqlite\"",")
             datatable=\"my_datatable\"")

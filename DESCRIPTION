@@ -21,7 +21,8 @@ Imports:
     DT,
     readr,
     RSQLite,
-    DBI
+    DBI,
+    dbplyr
 Suggests: 
     testthat,
     covr
