@@ -12,6 +12,14 @@ create_input_box<-function(type,id,label){
 ")
   }
 
+  # add tool tips
+
+  x<-paste0(x,"%>%
+              shinyInput_label_embed(
+                icon(\"info\") %>%
+                  bs_embed_tooltip(title = \"Change this help text for input\")
+              )")
+
   return(x)
 }
 
